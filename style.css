@@ -1,0 +1,45 @@
+/* CSS styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  height: 80vh;
+  border: 2px solid #333;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.red {
+  background-color: #e74c3c; /* Red */
+}
+
+.green {
+  background-color: #2ecc71; /* Green */
+}
+
+.blue {
+  background-color: #3498db; /* Blue */
+}
+
+
